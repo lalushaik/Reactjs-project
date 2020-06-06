@@ -1,0 +1,53 @@
+/* desktop view*/
+body{
+    background-color:#ABC2C4;
+}
+.main{
+display:flex;
+margin:10%;
+background-color: #77989C;
+padding:4%;
+justify-content: space-around;
+border-radius:4%;
+}
+.child{
+    width:40%;
+    background-color: #40949C;
+    text-align:center;
+    border-radius:5%;
+    box-shadow: 4px 4px 4px 4px #D7DFE0;
+    margin:4%;
+}
+.profile{
+    width:70%;
+    height:40%;
+    margin:5%;
+}
+p{
+    font-size: 20px;
+}
+/*Mobile view*/
+@media screen and (min-width:320px) and (max-width:480px){
+
+.main{
+    display:inline-block;
+}
+.child{
+    width:90%;
+    margin:5%;
+}
+}
+/*Tablet view*/
+@media screen and (min-width:481px) and (max-width:720px){
+  .main{
+      display:inline-block;
+      background-color: #57DA83;
+      margin:4%;
+  }
+.child{
+    width:90%;
+    margin:5%;
+    border-radius:4%;
+}
+
+}
